@@ -1,3 +1,19 @@
+## The tidy data set
+
+The tidy data set contains a total of 180 records of 99 variables. 
+Each record corresponds to the averages of the various measures collected for each of the six activities of the 30 subjects that participated in the experiment.
+The first two variables correspond to the subject and the activity name over which the averages are computed.
+The other 97 variables comprise of 40 time domain feature variables (start with t), 39 frequency domain feature variabled (start with f) and 18 variables computed from the Inertial data set provided (start with i).
+
+The naming convention of the variables is like below:
+
+Starts with the lowercase letter t, f, i corresponding to the measurement type (t for time, f for frequency and i for inertial)
+A descriptive name of the variable until the first .
+The type of pre-summarization done on the data element (mean or std) between the after the first dot
+If there is a second dot, the last part is X, Y or Z indicating the axis along which the variable was measured
+
+The detailed definition of each of the variables in the data set is below:
+
 ### subject
 
  - Data Type: Factor
