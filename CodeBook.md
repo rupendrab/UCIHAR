@@ -1,3 +1,10 @@
+## The project
+
+We are trying to create a tidy data set needed for further analysis from personal movement activity data collected from a sensor. The input data set can be found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+
+Once the data is downloaded and unzipped, it has the following organization:
+
+
 ### The tidy data set
 
 The tidy data set contains a total of 180 records of 99 variables. 
