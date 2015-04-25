@@ -1,6 +1,10 @@
+# Code Book for the HAR UCI data tidying project
+
 ## The project
 
 We are trying to create a tidy data set needed for further analysis from personal movement activity data collected from a sensor. The input data set can be found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+
+### Input Data / Raw Data analysis
 
 Once the data is downloaded and unzipped, it has the following organization:
 ```
@@ -9,11 +13,11 @@ Once the data is downloaded and unzipped, it has the following organization:
     activity_labels.txt
     features.txt
     features_info.txt
-    test
+    test/
         X_test.txt
         subject_test.txt
         y_test.txt
-        Inertial Signals
+        Inertial Signals/
             body_acc_x_test.txt
             body_acc_y_test.txt
             body_acc_z_test.txt
@@ -23,11 +27,11 @@ Once the data is downloaded and unzipped, it has the following organization:
             total_acc_x_test.txt
             total_acc_y_test.txt
             total_acc_z_test.txt
-    train
+    train/
         X_train.txt
         subject_train.txt
         y_train.txt
-        Inertial Signals
+        Inertial Signals/
             body_acc_x_train.txt
             body_acc_y_train.txt
             body_acc_z_train.txt
@@ -38,6 +42,24 @@ Once the data is downloaded and unzipped, it has the following organization:
             total_acc_y_train.txt
             total_acc_z_train.txt
 ```
+
+The file activity_labels.txt translatest numeric activity codes to activity names. File features.txt lists all the features available in the primary datasets.
+There are two datasets available with similar data test and train, data for each are stored in sub-directories named after them.
+
+1. The file X_*.txt have one line corresponding to one observation of a set of 561 feature variables. The values are separated by whitespace and the corresponding labels can be found in features.txt
+2. The file y_*.txt simply shows the activity id (1-6) for each of the observations in 1.
+3. The file subject_*.txt shows the person id / subject id (1-30) for each of the observations in 1.
+4. There is a sub-directory named Inertial Signals under each data set that has a list of 9 files for raw data collected from the accelerometer and gyroscope. The file name indicates the variable that was observed. The file contains a set of 128 whitespace delimited variables captured for each observation listed in 1.
+
+**This analysis clearly shows that each file described in 1-4 above have the same number of lines and each line refers to the same sample observation of the set of variables.
+
+### Data transformations done by the tidying process
+
+1. Read the features names from features.txt (in a data.frame)
+2. Read the activity labels (code and description) from activity_labels.txt (in a data.frame)
+3. For each of the test and train datasets, obtain the raw data in a tabular form like below:
+   1. xxx
+   2. yyy
 
 ### The tidy data set
 
