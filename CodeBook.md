@@ -16,13 +16,14 @@ The detailed definition of each of the variables in the data set is below:
 
 ### subject
 
+ ###### The subject (person identified by a number) that participated in the tests
  - Data Type: Factor
  - Data Values: 1 to 30 (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30)
  - Source: subject_[*Data Set*].txt (e.g. subject_test.txt and subject_train.txt if the datasets are test and train)
- - Description: The subject (person identified by a number) that participated in the tests
 
 ### activity.name
 
+ ###### The activity performed by the subject while the various observation variables were recorded
  - Data Type: Factor
  - Data Values: <br/>
      &nbsp;&nbsp;WALKING<br/>
@@ -32,7 +33,6 @@ The detailed definition of each of the variables in the data set is below:
      &nbsp;&nbsp;STANDING<br/>
      &nbsp;&nbsp;LAYING<br/>
  - Source: activity_labels.txt
- - Description: The activity performed by the subject while the various observation variables were recorded
 
 ### tBodyAcc.mean.X
 
