@@ -1,4 +1,4 @@
-# Code Book for the HAR UCI data tidying project
+# Code Book for the UCI Human Activity Recognition (HAR) raw data tidying project
 
 ## The project
 
@@ -58,8 +58,12 @@ There are two datasets available with similar data test and train, data for each
 1. Read the features names from features.txt (in a data.frame)
 2. Read the activity labels (code and description) from activity_labels.txt (in a data.frame)
 3. For each of the test and train datasets, obtain the raw data in a tabular form like below:
-   1. xxx
-   2. yyy
+   1. Read X_*.txt into a data.frame. Now we have each of the 561 variables captured in a column
+   2. Name the columns using the feature names dataset
+   3. Read the activity labels from y_*.txt and factorize them to their descriptions using the activity labels dataset
+   4. Read the subject ids from the subject_*.txt and factorize them
+   5. Add subject and activity name to the main dataset in step 2 using cbind
+   6. Filter out only the columns that have the characters "mean()", "meanFreq()" or "std()" in them as we are only interested in the mean and standard deviation data.
 
 ### The tidy data set
 
