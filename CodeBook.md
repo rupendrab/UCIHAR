@@ -3,7 +3,49 @@
 We are trying to create a tidy data set needed for further analysis from personal movement activity data collected from a sensor. The input data set can be found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 Once the data is downloaded and unzipped, it has the following organization:
+./UCI HAR Dataset/
+```
+README.txt
+activity_labels.txt
+features.txt
+features_info.txt
+test
+train
 
+./UCI HAR Dataset/test:
+Inertial Signals
+X_test.txt
+subject_test.txt
+y_test.txt
+
+./UCI HAR Dataset/test/Inertial Signals:
+body_acc_x_test.txt
+body_acc_y_test.txt
+body_acc_z_test.txt
+body_gyro_x_test.txt
+body_gyro_y_test.txt
+body_gyro_z_test.txt
+total_acc_x_test.txt
+total_acc_y_test.txt
+total_acc_z_test.txt
+
+./UCI HAR Dataset/train:
+Inertial Signals
+X_train.txt
+subject_train.txt
+y_train.txt
+
+./train/Inertial Signals:
+body_acc_x_train.txt
+body_acc_y_train.txt
+body_acc_z_train.txt
+body_gyro_x_train.txt
+body_gyro_y_train.txt
+body_gyro_z_train.txt
+total_acc_x_train.txt
+total_acc_y_train.txt
+total_acc_z_train.txt
+```
 
 ### The tidy data set
 
