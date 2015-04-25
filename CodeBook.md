@@ -64,6 +64,11 @@ There are two datasets available with similar data test and train, data for each
    4. Read the subject ids from the subject_*.txt and factorize them
    5. Add subject and activity name to the main dataset in step 2 using cbind
    6. Filter out only the columns that have the characters "mean()", "meanFreq()" or "std()" in them as we are only interested in the mean and standard deviation data.
+   7. We are also curious about the Inertial data set. However, this data is slightly more complex as it has multiple (128 to be exact) values recorded per observation and also has one file per variable. To handle this, we do the following:
+   8. For each file in the "Inertial Data" subdirectory:
+      1. Read the data into a data.frame. This is a n row 128 column data frame.
+      2. Create a n row 2 column data frame from 1 by calculating row means and row standard deviations for variables in each row.
+      3. Name the mean and standard deviation columns such that they reflect the data type in the file name, the aggregation type (mean or std), and the data axis represented in the file name. So, the mean column calculated from 
 
 ### The tidy data set
 
