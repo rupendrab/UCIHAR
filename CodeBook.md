@@ -8,13 +8,13 @@
 ### activity.name
 
  - Data Type: Factor
- - Data Values: 
-     WALKING<br/>
-     WALKING_UPSTAIRS<br/>
-     WALKING_DOWNSTAIRS<br/>
-     SITTING<br/>
-     STANDING<br/>
-     LAYING<br/>
+ - Data Values: <br/>
+     <&nbsp;><&nbsp;>WALKING<br/>
+     <&nbsp;><&nbsp;>WALKING_UPSTAIRS<br/>
+     <&nbsp;><&nbsp;>WALKING_DOWNSTAIRS<br/>
+     <&nbsp;><&nbsp;>SITTING<br/>
+     <&nbsp;><&nbsp;>STANDING<br/>
+     <&nbsp;><&nbsp;>LAYING<br/>
  - Source: activity_labels.txt
  - Description: The activity performed by the subject while the various observation variables were recorded
 
