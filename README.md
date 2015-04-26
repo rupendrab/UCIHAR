@@ -24,7 +24,24 @@ After having the abovementioned modules installed, please execute the following 
    2. Change working directory to the data directory in R console or R studio using setwd.
 5. Run the R file using `source("run_analysis.R")`. Please note that if you changed your directory to a different location than the directory where run_analysis.R is located, you will have to enter the full path in the source command. This will take a couple of minutes as I have added steps to parse through all the Inertial Data files (more description in Code Book).
 6. At the end of the process, you will have the following done:
-   1. 
-   2. 
+   1. The tidy data set saved as a text file named summaryData.txt. This file should be readable by read.table in R.
+   2. The tidy data set read out for you as a data.frame. The name of the data frame is sr. You can also load it yourself by running `some_df <- read.table("summaryData.txt", header = TRUE)`
+   3. The pre-summary data set also available in the data.frame named allData
+7. You can check the output directly by running `View(sr)`. Because it has a lot of columns, I have created a function that lets you both select a specific set of measure columns as well as the ability to see the data in wide vs long format.
+   1. To see the data in wide format and with measure columns starting with tBodyAcc, run 
+   ```
+   myDf <- viewData(sr, "tBodyAcc", applyMelt=FALSE)
+   myDf
+   # or
+   View(myDf)
+   ```
+   2. To see the same data in narrow format:
+   ```
+   myDf <- viewData(sr, "tBodyAcc", applyMelt=TRUE)
+   myDf
+   # or
+   View(myDf)
+   ```
+
 
 
