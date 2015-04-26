@@ -77,9 +77,10 @@ defSummary <- function(df, print=FALSE) {
         else
         {
                 for (i in 1:nrow(s)) {
-                        print(paste("###", s[i,1]), sep = " ", quote=FALSE)
+                        print(paste("####", s[i,1]), sep = " ", quote=FALSE)
                         typ <- substring(s[i,1],1,1)
                         print("", quote=FALSE)
+                        print(paste("##### ", s[i,2], sep = " "), quote=FALSE)
                         print(" - Data Type: Numeric", quote=FALSE)
                         if (typ == "t" || typ == "f" ) {
                                 print(" - Data Range: -1 to 1", quote=FALSE)
@@ -105,7 +106,6 @@ defSummary <- function(df, print=FALSE) {
                                 srcFile <- allInertialColumnSource[(allInertialColumnSource[,1] == s[i,1]),][2][1,1]
                                 print(paste(" - Source: ", aggregateName, " of observations in Inertial Data/", srcFile, sep=""), quote=FALSE)
                         }
-                        print(paste(" - Description:", s[i,2], sep = " "), quote=FALSE)
                         print("", quote=FALSE)
                 }
         }
