@@ -105,9 +105,10 @@ The detailed definition of each of the variables in the data set is below:
      &nbsp;&nbsp;STANDING<br/>
      &nbsp;&nbsp;LAYING<br/>
  - Source: activity_labels.txt
+
 #### tBodyAcc.mean.X
 
-#####  Mean of Time measure of Body acceleration from Accelerometer along X axis. Averaged over subject and activity.
+######  Mean of Time measure of Body acceleration from Accelerometer along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -115,7 +116,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyAcc.mean.Y
 
-#####  Mean of Time measure of Body acceleration from Accelerometer along Y axis. Averaged over subject and activity.
+######  Mean of Time measure of Body acceleration from Accelerometer along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -123,7 +124,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyAcc.mean.Z
 
-#####  Mean of Time measure of Body acceleration from Accelerometer along Z axis. Averaged over subject and activity.
+######  Mean of Time measure of Body acceleration from Accelerometer along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -131,7 +132,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyAcc.std.X
 
-#####  Standard deviation of Time measure of Body acceleration from Accelerometer along X axis. Averaged over subject and activity.
+######  Standard deviation of Time measure of Body acceleration from Accelerometer along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -139,7 +140,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyAcc.std.Y
 
-#####  Standard deviation of Time measure of Body acceleration from Accelerometer along Y axis. Averaged over subject and activity.
+######  Standard deviation of Time measure of Body acceleration from Accelerometer along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -147,7 +148,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyAcc.std.Z
 
-#####  Standard deviation of Time measure of Body acceleration from Accelerometer along Z axis. Averaged over subject and activity.
+######  Standard deviation of Time measure of Body acceleration from Accelerometer along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -155,7 +156,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tGravityAcc.mean.X
 
-#####  Mean of Time measure of Gravity acceleration from Accelerometer along X axis. Averaged over subject and activity.
+######  Mean of Time measure of Gravity acceleration from Accelerometer along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -163,7 +164,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tGravityAcc.mean.Y
 
-#####  Mean of Time measure of Gravity acceleration from Accelerometer along Y axis. Averaged over subject and activity.
+######  Mean of Time measure of Gravity acceleration from Accelerometer along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -171,7 +172,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tGravityAcc.mean.Z
 
-#####  Mean of Time measure of Gravity acceleration from Accelerometer along Z axis. Averaged over subject and activity.
+######  Mean of Time measure of Gravity acceleration from Accelerometer along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -179,7 +180,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tGravityAcc.std.X
 
-#####  Standard deviation of Time measure of Gravity acceleration from Accelerometer along X axis. Averaged over subject and activity.
+######  Standard deviation of Time measure of Gravity acceleration from Accelerometer along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -187,7 +188,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tGravityAcc.std.Y
 
-#####  Standard deviation of Time measure of Gravity acceleration from Accelerometer along Y axis. Averaged over subject and activity.
+######  Standard deviation of Time measure of Gravity acceleration from Accelerometer along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -195,7 +196,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tGravityAcc.std.Z
 
-#####  Standard deviation of Time measure of Gravity acceleration from Accelerometer along Z axis. Averaged over subject and activity.
+######  Standard deviation of Time measure of Gravity acceleration from Accelerometer along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -203,7 +204,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyAccJerk.mean.X
 
-#####  Mean of Time measure of Body acceleration from Accelerometer [Jerk] along X axis. Averaged over subject and activity.
+######  Mean of Time measure of Body acceleration from Accelerometer [Jerk] along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -211,7 +212,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyAccJerk.mean.Y
 
-#####  Mean of Time measure of Body acceleration from Accelerometer [Jerk] along Y axis. Averaged over subject and activity.
+######  Mean of Time measure of Body acceleration from Accelerometer [Jerk] along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -219,7 +220,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyAccJerk.mean.Z
 
-#####  Mean of Time measure of Body acceleration from Accelerometer [Jerk] along Z axis. Averaged over subject and activity.
+######  Mean of Time measure of Body acceleration from Accelerometer [Jerk] along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -227,7 +228,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyAccJerk.std.X
 
-#####  Standard deviation of Time measure of Body acceleration from Accelerometer [Jerk] along X axis. Averaged over subject and activity.
+######  Standard deviation of Time measure of Body acceleration from Accelerometer [Jerk] along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -235,7 +236,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyAccJerk.std.Y
 
-#####  Standard deviation of Time measure of Body acceleration from Accelerometer [Jerk] along Y axis. Averaged over subject and activity.
+######  Standard deviation of Time measure of Body acceleration from Accelerometer [Jerk] along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -243,7 +244,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyAccJerk.std.Z
 
-#####  Standard deviation of Time measure of Body acceleration from Accelerometer [Jerk] along Z axis. Averaged over subject and activity.
+######  Standard deviation of Time measure of Body acceleration from Accelerometer [Jerk] along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -251,7 +252,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyGyro.mean.X
 
-#####  Mean of Time measure of Body angular velocity from Gyroscope along X axis. Averaged over subject and activity.
+######  Mean of Time measure of Body angular velocity from Gyroscope along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -259,7 +260,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyGyro.mean.Y
 
-#####  Mean of Time measure of Body angular velocity from Gyroscope along Y axis. Averaged over subject and activity.
+######  Mean of Time measure of Body angular velocity from Gyroscope along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -267,7 +268,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyGyro.mean.Z
 
-#####  Mean of Time measure of Body angular velocity from Gyroscope along Z axis. Averaged over subject and activity.
+######  Mean of Time measure of Body angular velocity from Gyroscope along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -275,7 +276,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyGyro.std.X
 
-#####  Standard deviation of Time measure of Body angular velocity from Gyroscope along X axis. Averaged over subject and activity.
+######  Standard deviation of Time measure of Body angular velocity from Gyroscope along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -283,7 +284,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyGyro.std.Y
 
-#####  Standard deviation of Time measure of Body angular velocity from Gyroscope along Y axis. Averaged over subject and activity.
+######  Standard deviation of Time measure of Body angular velocity from Gyroscope along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -291,7 +292,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyGyro.std.Z
 
-#####  Standard deviation of Time measure of Body angular velocity from Gyroscope along Z axis. Averaged over subject and activity.
+######  Standard deviation of Time measure of Body angular velocity from Gyroscope along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -299,7 +300,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyGyroJerk.mean.X
 
-#####  Mean of Time measure of Body angular velocity from Gyroscope [Jerk] along X axis. Averaged over subject and activity.
+######  Mean of Time measure of Body angular velocity from Gyroscope [Jerk] along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -307,7 +308,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyGyroJerk.mean.Y
 
-#####  Mean of Time measure of Body angular velocity from Gyroscope [Jerk] along Y axis. Averaged over subject and activity.
+######  Mean of Time measure of Body angular velocity from Gyroscope [Jerk] along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -315,7 +316,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyGyroJerk.mean.Z
 
-#####  Mean of Time measure of Body angular velocity from Gyroscope [Jerk] along Z axis. Averaged over subject and activity.
+######  Mean of Time measure of Body angular velocity from Gyroscope [Jerk] along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -323,7 +324,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyGyroJerk.std.X
 
-#####  Standard deviation of Time measure of Body angular velocity from Gyroscope [Jerk] along X axis. Averaged over subject and activity.
+######  Standard deviation of Time measure of Body angular velocity from Gyroscope [Jerk] along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -331,7 +332,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyGyroJerk.std.Y
 
-#####  Standard deviation of Time measure of Body angular velocity from Gyroscope [Jerk] along Y axis. Averaged over subject and activity.
+######  Standard deviation of Time measure of Body angular velocity from Gyroscope [Jerk] along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -339,7 +340,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyGyroJerk.std.Z
 
-#####  Standard deviation of Time measure of Body angular velocity from Gyroscope [Jerk] along Z axis. Averaged over subject and activity.
+######  Standard deviation of Time measure of Body angular velocity from Gyroscope [Jerk] along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -347,7 +348,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyAccMag.mean
 
-#####  Mean of Time measure of Body acceleration from Accelerometer [Magnitude]. Averaged over subject and activity.
+######  Mean of Time measure of Body acceleration from Accelerometer [Magnitude]. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -355,7 +356,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyAccMag.std
 
-#####  Standard deviation of Time measure of Body acceleration from Accelerometer [Magnitude]. Averaged over subject and activity.
+######  Standard deviation of Time measure of Body acceleration from Accelerometer [Magnitude]. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -363,7 +364,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tGravityAccMag.mean
 
-#####  Mean of Time measure of Gravity acceleration from Accelerometer [Magnitude]. Averaged over subject and activity.
+######  Mean of Time measure of Gravity acceleration from Accelerometer [Magnitude]. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -371,7 +372,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tGravityAccMag.std
 
-#####  Standard deviation of Time measure of Gravity acceleration from Accelerometer [Magnitude]. Averaged over subject and activity.
+######  Standard deviation of Time measure of Gravity acceleration from Accelerometer [Magnitude]. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -379,7 +380,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyAccJerkMag.mean
 
-#####  Mean of Time measure of Body acceleration from Accelerometer [Jerk Magnitude]. Averaged over subject and activity.
+######  Mean of Time measure of Body acceleration from Accelerometer [Jerk Magnitude]. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -387,7 +388,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyAccJerkMag.std
 
-#####  Standard deviation of Time measure of Body acceleration from Accelerometer [Jerk Magnitude]. Averaged over subject and activity.
+######  Standard deviation of Time measure of Body acceleration from Accelerometer [Jerk Magnitude]. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -395,7 +396,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyGyroMag.mean
 
-#####  Mean of Time measure of Body angular velocity from Gyroscope [Magnitude]. Averaged over subject and activity.
+######  Mean of Time measure of Body angular velocity from Gyroscope [Magnitude]. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -403,7 +404,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyGyroMag.std
 
-#####  Standard deviation of Time measure of Body angular velocity from Gyroscope [Magnitude]. Averaged over subject and activity.
+######  Standard deviation of Time measure of Body angular velocity from Gyroscope [Magnitude]. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -411,7 +412,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyGyroJerkMag.mean
 
-#####  Mean of Time measure of Body angular velocity from Gyroscope [Jerk Magnitude]. Averaged over subject and activity.
+######  Mean of Time measure of Body angular velocity from Gyroscope [Jerk Magnitude]. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -419,7 +420,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### tBodyGyroJerkMag.std
 
-#####  Standard deviation of Time measure of Body angular velocity from Gyroscope [Jerk Magnitude]. Averaged over subject and activity.
+######  Standard deviation of Time measure of Body angular velocity from Gyroscope [Jerk Magnitude]. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Time duration normalized to span -1 to 1
@@ -427,7 +428,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyAcc.mean.X
 
-#####  Mean of frequency measure of Body acceleration from Accelerometer along X axis. Averaged over subject and activity.
+######  Mean of frequency measure of Body acceleration from Accelerometer along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -435,7 +436,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyAcc.mean.Y
 
-#####  Mean of frequency measure of Body acceleration from Accelerometer along Y axis. Averaged over subject and activity.
+######  Mean of frequency measure of Body acceleration from Accelerometer along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -443,7 +444,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyAcc.mean.Z
 
-#####  Mean of frequency measure of Body acceleration from Accelerometer along Z axis. Averaged over subject and activity.
+######  Mean of frequency measure of Body acceleration from Accelerometer along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -451,7 +452,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyAcc.std.X
 
-#####  Standard deviation of frequency measure of Body acceleration from Accelerometer along X axis. Averaged over subject and activity.
+######  Standard deviation of frequency measure of Body acceleration from Accelerometer along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -459,7 +460,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyAcc.std.Y
 
-#####  Standard deviation of frequency measure of Body acceleration from Accelerometer along Y axis. Averaged over subject and activity.
+######  Standard deviation of frequency measure of Body acceleration from Accelerometer along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -467,7 +468,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyAcc.std.Z
 
-#####  Standard deviation of frequency measure of Body acceleration from Accelerometer along Z axis. Averaged over subject and activity.
+######  Standard deviation of frequency measure of Body acceleration from Accelerometer along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -475,7 +476,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyAcc.meanFreq.X
 
-#####  Mean Frequency of frequency measure of Body acceleration from Accelerometer along X axis. Averaged over subject and activity.
+######  Mean Frequency of frequency measure of Body acceleration from Accelerometer along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -483,7 +484,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyAcc.meanFreq.Y
 
-#####  Mean Frequency of frequency measure of Body acceleration from Accelerometer along Y axis. Averaged over subject and activity.
+######  Mean Frequency of frequency measure of Body acceleration from Accelerometer along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -491,7 +492,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyAcc.meanFreq.Z
 
-#####  Mean Frequency of frequency measure of Body acceleration from Accelerometer along Z axis. Averaged over subject and activity.
+######  Mean Frequency of frequency measure of Body acceleration from Accelerometer along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -499,7 +500,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyAccJerk.mean.X
 
-#####  Mean of frequency measure of Body acceleration from Accelerometer [Jerk] along X axis. Averaged over subject and activity.
+######  Mean of frequency measure of Body acceleration from Accelerometer [Jerk] along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -507,7 +508,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyAccJerk.mean.Y
 
-#####  Mean of frequency measure of Body acceleration from Accelerometer [Jerk] along Y axis. Averaged over subject and activity.
+######  Mean of frequency measure of Body acceleration from Accelerometer [Jerk] along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -515,7 +516,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyAccJerk.mean.Z
 
-#####  Mean of frequency measure of Body acceleration from Accelerometer [Jerk] along Z axis. Averaged over subject and activity.
+######  Mean of frequency measure of Body acceleration from Accelerometer [Jerk] along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -523,7 +524,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyAccJerk.std.X
 
-#####  Standard deviation of frequency measure of Body acceleration from Accelerometer [Jerk] along X axis. Averaged over subject and activity.
+######  Standard deviation of frequency measure of Body acceleration from Accelerometer [Jerk] along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -531,7 +532,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyAccJerk.std.Y
 
-#####  Standard deviation of frequency measure of Body acceleration from Accelerometer [Jerk] along Y axis. Averaged over subject and activity.
+######  Standard deviation of frequency measure of Body acceleration from Accelerometer [Jerk] along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -539,7 +540,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyAccJerk.std.Z
 
-#####  Standard deviation of frequency measure of Body acceleration from Accelerometer [Jerk] along Z axis. Averaged over subject and activity.
+######  Standard deviation of frequency measure of Body acceleration from Accelerometer [Jerk] along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -547,7 +548,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyAccJerk.meanFreq.X
 
-#####  Mean Frequency of frequency measure of Body acceleration from Accelerometer [Jerk] along X axis. Averaged over subject and activity.
+######  Mean Frequency of frequency measure of Body acceleration from Accelerometer [Jerk] along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -555,7 +556,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyAccJerk.meanFreq.Y
 
-#####  Mean Frequency of frequency measure of Body acceleration from Accelerometer [Jerk] along Y axis. Averaged over subject and activity.
+######  Mean Frequency of frequency measure of Body acceleration from Accelerometer [Jerk] along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -563,7 +564,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyAccJerk.meanFreq.Z
 
-#####  Mean Frequency of frequency measure of Body acceleration from Accelerometer [Jerk] along Z axis. Averaged over subject and activity.
+######  Mean Frequency of frequency measure of Body acceleration from Accelerometer [Jerk] along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -571,7 +572,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyGyro.mean.X
 
-#####  Mean of frequency measure of Body angular velocity from Gyroscope along X axis. Averaged over subject and activity.
+######  Mean of frequency measure of Body angular velocity from Gyroscope along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -579,7 +580,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyGyro.mean.Y
 
-#####  Mean of frequency measure of Body angular velocity from Gyroscope along Y axis. Averaged over subject and activity.
+######  Mean of frequency measure of Body angular velocity from Gyroscope along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -587,7 +588,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyGyro.mean.Z
 
-#####  Mean of frequency measure of Body angular velocity from Gyroscope along Z axis. Averaged over subject and activity.
+######  Mean of frequency measure of Body angular velocity from Gyroscope along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -595,7 +596,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyGyro.std.X
 
-#####  Standard deviation of frequency measure of Body angular velocity from Gyroscope along X axis. Averaged over subject and activity.
+######  Standard deviation of frequency measure of Body angular velocity from Gyroscope along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -603,7 +604,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyGyro.std.Y
 
-#####  Standard deviation of frequency measure of Body angular velocity from Gyroscope along Y axis. Averaged over subject and activity.
+######  Standard deviation of frequency measure of Body angular velocity from Gyroscope along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -611,7 +612,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyGyro.std.Z
 
-#####  Standard deviation of frequency measure of Body angular velocity from Gyroscope along Z axis. Averaged over subject and activity.
+######  Standard deviation of frequency measure of Body angular velocity from Gyroscope along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -619,7 +620,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyGyro.meanFreq.X
 
-#####  Mean Frequency of frequency measure of Body angular velocity from Gyroscope along X axis. Averaged over subject and activity.
+######  Mean Frequency of frequency measure of Body angular velocity from Gyroscope along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -627,7 +628,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyGyro.meanFreq.Y
 
-#####  Mean Frequency of frequency measure of Body angular velocity from Gyroscope along Y axis. Averaged over subject and activity.
+######  Mean Frequency of frequency measure of Body angular velocity from Gyroscope along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -635,7 +636,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyGyro.meanFreq.Z
 
-#####  Mean Frequency of frequency measure of Body angular velocity from Gyroscope along Z axis. Averaged over subject and activity.
+######  Mean Frequency of frequency measure of Body angular velocity from Gyroscope along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -643,7 +644,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyAccMag.mean
 
-#####  Mean of frequency measure of Body acceleration from Accelerometer [Magnitude]. Averaged over subject and activity.
+######  Mean of frequency measure of Body acceleration from Accelerometer [Magnitude]. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -651,7 +652,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyAccMag.std
 
-#####  Standard deviation of frequency measure of Body acceleration from Accelerometer [Magnitude]. Averaged over subject and activity.
+######  Standard deviation of frequency measure of Body acceleration from Accelerometer [Magnitude]. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -659,7 +660,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyAccMag.meanFreq
 
-#####  Mean Frequency of frequency measure of Body acceleration from Accelerometer [Magnitude]. Averaged over subject and activity.
+######  Mean Frequency of frequency measure of Body acceleration from Accelerometer [Magnitude]. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -667,7 +668,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyBodyAccJerkMag.mean
 
-#####  Mean of frequency measure of Body acceleration from Accelerometer [Jerk Magnitude]. Averaged over subject and activity.
+######  Mean of frequency measure of Body acceleration from Accelerometer [Jerk Magnitude]. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -675,7 +676,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyBodyAccJerkMag.std
 
-#####  Standard deviation of frequency measure of Body acceleration from Accelerometer [Jerk Magnitude]. Averaged over subject and activity.
+######  Standard deviation of frequency measure of Body acceleration from Accelerometer [Jerk Magnitude]. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -683,7 +684,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyBodyAccJerkMag.meanFreq
 
-#####  Mean Frequency of frequency measure of Body acceleration from Accelerometer [Jerk Magnitude]. Averaged over subject and activity.
+######  Mean Frequency of frequency measure of Body acceleration from Accelerometer [Jerk Magnitude]. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -691,7 +692,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyBodyGyroMag.mean
 
-#####  Mean of frequency measure of Body angular velocity from Gyroscope [Magnitude]. Averaged over subject and activity.
+######  Mean of frequency measure of Body angular velocity from Gyroscope [Magnitude]. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -699,7 +700,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyBodyGyroMag.std
 
-#####  Standard deviation of frequency measure of Body angular velocity from Gyroscope [Magnitude]. Averaged over subject and activity.
+######  Standard deviation of frequency measure of Body angular velocity from Gyroscope [Magnitude]. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -707,7 +708,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyBodyGyroMag.meanFreq
 
-#####  Mean Frequency of frequency measure of Body angular velocity from Gyroscope [Magnitude]. Averaged over subject and activity.
+######  Mean Frequency of frequency measure of Body angular velocity from Gyroscope [Magnitude]. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -715,7 +716,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyBodyGyroJerkMag.mean
 
-#####  Mean of frequency measure of Body angular velocity from Gyroscope [Jerk Magnitude]. Averaged over subject and activity.
+######  Mean of frequency measure of Body angular velocity from Gyroscope [Jerk Magnitude]. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -723,7 +724,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyBodyGyroJerkMag.std
 
-#####  Standard deviation of frequency measure of Body angular velocity from Gyroscope [Jerk Magnitude]. Averaged over subject and activity.
+######  Standard deviation of frequency measure of Body angular velocity from Gyroscope [Jerk Magnitude]. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -731,7 +732,7 @@ The detailed definition of each of the variables in the data set is below:
 
 #### fBodyBodyGyroJerkMag.meanFreq
 
-#####  Mean Frequency of frequency measure of Body angular velocity from Gyroscope [Jerk Magnitude]. Averaged over subject and activity.
+######  Mean Frequency of frequency measure of Body angular velocity from Gyroscope [Jerk Magnitude]. Averaged over subject and activity.
  - Data Type: Numeric
  - Data Range: -1 to 1
  - Unit: Frequency, no units, normalized to span -1 to 1
@@ -739,128 +740,127 @@ The detailed definition of each of the variables in the data set is below:
 
 #### iBodyAcc.mean.X
 
-#####  Mean of Inertial measure of Body acceleration from Accelerometer along X axis. Averaged over subject and activity.
+######  Mean of Inertial measure of Body acceleration from Accelerometer along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Unit: Standard gravity units 'g'
  - Source: Calculated Mean of observations in Inertial Data/body_acc_x_test.txt
 
 #### iBodyAcc.std.X
 
-#####  Standard deviation of Inertial measure of Body acceleration from Accelerometer along X axis. Averaged over subject and activity.
+######  Standard deviation of Inertial measure of Body acceleration from Accelerometer along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Unit: Standard gravity units 'g'
  - Source: Calculated Standard deviation of observations in Inertial Data/body_acc_x_test.txt
 
 #### iBodyAcc.mean.Y
 
-#####  Mean of Inertial measure of Body acceleration from Accelerometer along Y axis. Averaged over subject and activity.
+######  Mean of Inertial measure of Body acceleration from Accelerometer along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Unit: Standard gravity units 'g'
  - Source: Calculated Mean of observations in Inertial Data/body_acc_y_test.txt
 
 #### iBodyAcc.std.Y
 
-#####  Standard deviation of Inertial measure of Body acceleration from Accelerometer along Y axis. Averaged over subject and activity.
+######  Standard deviation of Inertial measure of Body acceleration from Accelerometer along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Unit: Standard gravity units 'g'
  - Source: Calculated Standard deviation of observations in Inertial Data/body_acc_y_test.txt
 
 #### iBodyAcc.mean.Z
 
-#####  Mean of Inertial measure of Body acceleration from Accelerometer along Z axis. Averaged over subject and activity.
+######  Mean of Inertial measure of Body acceleration from Accelerometer along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Unit: Standard gravity units 'g'
  - Source: Calculated Mean of observations in Inertial Data/body_acc_z_test.txt
 
 #### iBodyAcc.std.Z
 
-#####  Standard deviation of Inertial measure of Body acceleration from Accelerometer along Z axis. Averaged over subject and activity.
+######  Standard deviation of Inertial measure of Body acceleration from Accelerometer along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Unit: Standard gravity units 'g'
  - Source: Calculated Standard deviation of observations in Inertial Data/body_acc_z_test.txt
 
 #### iBodyGyro.mean.X
 
-#####  Mean of Inertial measure of Body angular velocity from Gyroscope along X axis. Averaged over subject and activity.
+######  Mean of Inertial measure of Body angular velocity from Gyroscope along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Unit: Radians per second
  - Source: Calculated Mean of observations in Inertial Data/body_gyro_x_test.txt
 
 #### iBodyGyro.std.X
 
-#####  Standard deviation of Inertial measure of Body angular velocity from Gyroscope along X axis. Averaged over subject and activity.
+######  Standard deviation of Inertial measure of Body angular velocity from Gyroscope along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Unit: Radians per second
  - Source: Calculated Standard deviation of observations in Inertial Data/body_gyro_x_test.txt
 
 #### iBodyGyro.mean.Y
 
-#####  Mean of Inertial measure of Body angular velocity from Gyroscope along Y axis. Averaged over subject and activity.
+######  Mean of Inertial measure of Body angular velocity from Gyroscope along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Unit: Radians per second
  - Source: Calculated Mean of observations in Inertial Data/body_gyro_y_test.txt
 
 #### iBodyGyro.std.Y
 
-#####  Standard deviation of Inertial measure of Body angular velocity from Gyroscope along Y axis. Averaged over subject and activity.
+######  Standard deviation of Inertial measure of Body angular velocity from Gyroscope along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Unit: Radians per second
  - Source: Calculated Standard deviation of observations in Inertial Data/body_gyro_y_test.txt
 
 #### iBodyGyro.mean.Z
 
-#####  Mean of Inertial measure of Body angular velocity from Gyroscope along Z axis. Averaged over subject and activity.
+######  Mean of Inertial measure of Body angular velocity from Gyroscope along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Unit: Radians per second
  - Source: Calculated Mean of observations in Inertial Data/body_gyro_z_test.txt
 
 #### iBodyGyro.std.Z
 
-#####  Standard deviation of Inertial measure of Body angular velocity from Gyroscope along Z axis. Averaged over subject and activity.
+######  Standard deviation of Inertial measure of Body angular velocity from Gyroscope along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Unit: Radians per second
  - Source: Calculated Standard deviation of observations in Inertial Data/body_gyro_z_test.txt
 
 #### iTotalAcc.mean.X
 
-#####  Mean of Inertial measure of Total acceleration from Accelerometer along X axis. Averaged over subject and activity.
+######  Mean of Inertial measure of Total acceleration from Accelerometer along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Unit: Standard gravity units 'g'
  - Source: Calculated Mean of observations in Inertial Data/total_acc_x_test.txt
 
 #### iTotalAcc.std.X
 
-#####  Standard deviation of Inertial measure of Total acceleration from Accelerometer along X axis. Averaged over subject and activity.
+######  Standard deviation of Inertial measure of Total acceleration from Accelerometer along X axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Unit: Standard gravity units 'g'
  - Source: Calculated Standard deviation of observations in Inertial Data/total_acc_x_test.txt
 
 #### iTotalAcc.mean.Y
 
-#####  Mean of Inertial measure of Total acceleration from Accelerometer along Y axis. Averaged over subject and activity.
+######  Mean of Inertial measure of Total acceleration from Accelerometer along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Unit: Standard gravity units 'g'
  - Source: Calculated Mean of observations in Inertial Data/total_acc_y_test.txt
 
 #### iTotalAcc.std.Y
 
-#####  Standard deviation of Inertial measure of Total acceleration from Accelerometer along Y axis. Averaged over subject and activity.
+######  Standard deviation of Inertial measure of Total acceleration from Accelerometer along Y axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Unit: Standard gravity units 'g'
  - Source: Calculated Standard deviation of observations in Inertial Data/total_acc_y_test.txt
 
 #### iTotalAcc.mean.Z
 
-#####  Mean of Inertial measure of Total acceleration from Accelerometer along Z axis. Averaged over subject and activity.
+######  Mean of Inertial measure of Total acceleration from Accelerometer along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Unit: Standard gravity units 'g'
  - Source: Calculated Mean of observations in Inertial Data/total_acc_z_test.txt
 
 #### iTotalAcc.std.Z
 
-#####  Standard deviation of Inertial measure of Total acceleration from Accelerometer along Z axis. Averaged over subject and activity.
+######  Standard deviation of Inertial measure of Total acceleration from Accelerometer along Z axis. Averaged over subject and activity.
  - Data Type: Numeric
  - Unit: Standard gravity units 'g'
  - Source: Calculated Standard deviation of observations in Inertial Data/total_acc_z_test.txt
-
 

@@ -80,7 +80,7 @@ defSummary <- function(df, print=FALSE) {
                         print(paste("####", s[i,1]), sep = " ", quote=FALSE)
                         typ <- substring(s[i,1],1,1)
                         print("", quote=FALSE)
-                        print(paste("##### ", s[i,2], sep = " "), quote=FALSE)
+                        print(paste("###### ", s[i,2], sep = " "), quote=FALSE)
                         print(" - Data Type: Numeric", quote=FALSE)
                         if (typ == "t" || typ == "f" ) {
                                 print(" - Data Range: -1 to 1", quote=FALSE)
