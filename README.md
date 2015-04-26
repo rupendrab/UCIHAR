@@ -6,7 +6,7 @@ This project is created to read the raw data downloaded and unzipped from the [s
 
 ## Modules
 
-1. CodeBook.md describes the raw data structure, the data cleaning and summarization process and the meaning and source of the variables in the final tidy data set.
+1. [CodeBook.md](https://github.com/rupendrab/UCIHAR/blob/master/CodeBook.md) describes the raw data structure, the data cleaning and summarization process and the meaning and source of the variables in the final tidy data set.
 2. run_analysis.R is all you need to run the complete analysis
 3. proj_supplement.R has been used to generate the variable definitions for CodeBook.md. It would be a very tedious manual process without this code, so I have included this code with the project as well.
 
@@ -22,5 +22,9 @@ After having the abovementioned modules installed, please execute the following 
 4. If the directory where you unzipped the data file is different from the the directory where the R source code (run_analysis.R) is located, you can do one of the follwing:
    1. Edit the file run_analysis.R to change the line defining datasetdir at the top of the file to the location where the source data is.
    2. Change working directory to the data directory in R console or R studio using setwd.
-5. Run the R file using `source("run_analysis.R")`. Please note that if you changed your directory to a different location than the directory where run_analysis.R is located, you will have to enter the full path in the source command.
+5. Run the R file using `source("run_analysis.R")`. Please note that if you changed your directory to a different location than the directory where run_analysis.R is located, you will have to enter the full path in the source command. This will take a couple of minutes as I have added steps to parse through all the Inertial Data files (more description in Code Book).
+6. At the end of the process, you will have the following done:
+   1. 
+   2. 
+
 
