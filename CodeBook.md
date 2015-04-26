@@ -64,11 +64,16 @@ There are two datasets available with similar data test and train, data for each
    4. Read the subject ids from the subject_*.txt and factorize them
    5. Add subject and activity name to the main dataset in step 2 using cbind
    6. Filter out only the columns that have the characters "mean()", "meanFreq()" or "std()" in them as we are only interested in the mean and standard deviation data.
-   7. We are also curious about the Inertial data set. However, this data is slightly more complex as it has multiple (128 to be exact) values recorded per observation and also has one file per variable. To handle this, we do the following:
-   8. For each file in the "Inertial Data" subdirectory:
+   7. Change the column names to the dotted standard format. So a column named tBodyAcc-mean()-X will be renamed as tBodyAcc.mean.X
+   8. Add the dataset name (named after the subdirectory, test or train in our case) as a column named sampleset. 
+   9. We are also curious about the Inertial data set. However, this data is slightly more complex as it has multiple (128 to be exact) values recorded per observation and also has one file per variable. To handle this, we do the following:
+   10. For each file in the "Inertial Data" subdirectory:
       1. Read the data into a data.frame. This is a n row 128 column data frame.
       2. Create a n row 2 column data frame from 1 by calculating row means and row standard deviations for variables in each row.
-      3. Name the mean and standard deviation columns such that they reflect the data type in the file name, the aggregation type (mean or std), and the data axis represented in the file name. So, the mean column calculated from 
+      3. Name the mean and standard deviation columns such that they reflect the data type in the file name, the aggregation type (mean or std), and the data axis represented in the file name. So, the mean column calculated from file named body_acc_x_train.txt will be iBodyAcc.mean.X and the corresponding standard deviation will be nameds as iBodyAcc.std.X
+      4. Add these two columns to the primary dataset using cbind
+   11. Now we have a dataset that is a tabular form of the original data and includes the means and standard deviations of all observed variables. This dataset contains 100 columns and 10299 rows.
+   12. We further process this data to obtain averages of each of the measure variables (97 in all) over each unique combination of subject id and activity. This is our final tidy data set with 180 rows and 99 columns. The tidy data set is described in the next section.
 
 ### The tidy data set
 
